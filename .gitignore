@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# Google Cloud key
+gcp_key.json
+
+# Part folder (audio collections)
+part-1/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS files
+Thumbs.db
+.DS_Store
