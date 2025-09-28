@@ -65,7 +65,7 @@ def transcribe_file(audio_path: str, credentials_path: Optional[str] = None) -> 
 
 if __name__ == "__main__":
     base = os.path.dirname(__file__)
-    audio = os.path.join(base, "vacation3.wav")
+    audio = os.path.join(base, "shubh.wav")
     creds = os.path.join(base, "gcp_key.json") if os.path.exists(os.path.join(base, "gcp_key.json")) else None
 
     print(f"Transcribing: {audio}")

@@ -5,8 +5,12 @@
 3) Register for Google Cloud Speech-to-Text
 
 - In Google Cloud Console create a service account, enable the Speech-to-Text API, and download the JSON key.
-- Save the JSON as `gcp_key.json` or set `GOOGLE_APPLICATION_CREDENTIALS` to its path.
+- Save the JSON as `gcp_key.json` or set `GOOGLE_APPLICATION_CREDENTIALS` to its path. (Professor, you can drop me an email (SS8179@RIT.EDU) and I can share MY GCP key if needed)
 
-4) Run transcription (script looks for `vacation3.wav` by default): speechToTxt.py containes the main code to run in which we submit request to main service (GCP)
+4) You can also replace this with any of the provided audio samples:
+    - shubh.wav – Shubh’s fall break recording
+    - andrew.wav – Andrew’s fall break recording
+    - vivian.wav – Vivian’s fall break recording
+Each file contains a spoken fall break description used for WER evaluation. The recognized transcript (HYP) will be printed to the console after processing. 
 
-The transcript will be printed to the console.
+5) RUN `speechToTxt.py` containes the main transcription logic.
