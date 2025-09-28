@@ -11,6 +11,7 @@
     - shubh.wav – Shubh’s fall break recording
     - andrew.wav – Andrew’s fall break recording
     - vivian.wav – Vivian’s fall break recording
-Each file contains a spoken fall break description used for WER evaluation. The recognized transcript (HYP) will be printed to the console after processing. 
+
+- Each file contains a spoken fall break description used for WER evaluation. The recognized transcript (HYP) will be printed to the console after processing. 
 
 5) RUN `speechToTxt.py` containes the main transcription logic.
